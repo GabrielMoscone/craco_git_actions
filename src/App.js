@@ -1,12 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  const COMPRAS_URL = process.env.COLOR;
+  const COLOR = process.env.COLOR;
+
+  console.log(COLOR);
 
   return (
     <div className="App">
-      <header className="App-header">{COMPRAS_URL}</header>
+      <header className="App-header">{COLOR}</header>
     </div>
   );
 }
